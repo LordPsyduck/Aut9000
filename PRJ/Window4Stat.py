@@ -20,9 +20,9 @@ class Example(QMainWindow):
         exitAction.setStatusTip('Exit Appliacation')
         exitAction.triggered.connect(qApp.quit)
 
-        self.statusBar().showMessage('Ready')
+        self.statusBar().showMessage('Welcome')
 
-        menubar = self.menubar()
+        menubar = self.menuBar()
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(exitAction)
 

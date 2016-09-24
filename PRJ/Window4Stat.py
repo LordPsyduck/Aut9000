@@ -26,7 +26,7 @@ class Example(QMainWindow):
         fileMenu = menubar.addMenu('&File')
         fileMenu.addAction(exitAction)
 
-        self.setGeometry(300, 300, 250, 150)
+        self.showMaximized()
         self.setWindowTitle('Statusbar')
         self.show()
 
